@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ZealMaps Services - Surveying, GIS Analysis, Geospatial Data Intelligence, and Consulting.">
+    <title>Services | ZealMaps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific header correction for inner pages */
+        .hero-inner {
+            padding-top: 140px;
+            /* Nav height + spacing */
+            padding-bottom: 80px;
+            background-color: var(--color-bg-alt);
+            text-align: center;
+        }
+
+        .hero-inner h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-inner p {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="logo-icon">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span class="logo-text">ZealMaps</span>
+            </a>
+
+            <div class="nav-links-desktop">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="btn btn-primary">Request Consultation</a>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+
+        <div class="mobile-nav-overlay">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="services.html" class="mobile-nav-link">Services</a>
+                <a href="projects.html" class="mobile-nav-link">Projects</a>
+                <a href="about.html" class="mobile-nav-link">About</a>
+                <a href="contact.html" class="btn btn-primary mobile-cta">Request Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero-inner">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>End-to-end geospatial solutions for precision and insight.</p>
+        </div>
+    </header>
+
+    <!-- Detailed Services -->
+    <section class="section">
+        <div class="container">
+
+            <!-- Service 1 -->
+            <div class="grid grid-2" style="align-items: center; margin-bottom: var(--space-xl);">
+                <div>
+                    <div
+                        style="width: 64px; height: 64px; background: rgba(15, 42, 74, 0.05); border-radius: 12px; display:flex; align-items:center; justify-content:center; color: var(--color-brand-primary); margin-bottom: 1.5rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h2>Surveying & Mapping</h2>
+                    <p>We provide high-accuracy land surveying services using GNSS, Total Stations, and Drone
+                        technology. Our maps serve as the foundational truth for engineering and construction projects.
+                    </p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 1.5rem; padding-left: 1.25rem;">
+                        <li>Topographic Surveys</li>
+                        <li>Cadastral & Boundary Mapping</li>
+                        <li>As-Built Surveys</li>
+                        <li>Construction Set-out</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary">Request a Survey</a>
+                </div>
+                <!-- Placeholder Image -->
+                <div
+                    style="background: #e2e8f0; border-radius: var(--radius-lg); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: var(--color-text-light);">
+                    Surveying Visual Placeholder
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="grid grid-2" style="align-items: center; margin-bottom: var(--space-xl);">
+                <!-- Placeholder Order Flip for Visual Interest -->
+                <div
+                    style="background: #e2e8f0; border-radius: var(--radius-lg); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: var(--color-text-light); order: 2;">
+                    GIS Analysis Visual Placeholder
+                </div>
+                <div style="order: 1;">
+                    <div
+                        style="width: 64px; height: 64px; background: rgba(15, 42, 74, 0.05); border-radius: 12px; display:flex; align-items:center; justify-content:center; color: var(--color-brand-primary); margin-bottom: 1.5rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+                        </svg>
+                    </div>
+                    <h2>GIS & Spatial Analysis</h2>
+                    <p>Beyond simple mapping, we analyze the 'where' and 'why'. Our analysis supports urban planning,
+                        environmental impact assessments, and site suitability studies.</p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 1.5rem; padding-left: 1.25rem;">
+                        <li>Site Suitability Analysis</li>
+                        <li>Environmental Impact Mapping</li>
+                        <li>Network Analysis (Transport/Utility)</li>
+                        <li>Flood Risk Modeling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="grid grid-2" style="align-items: center; margin-bottom: var(--space-xl);">
+                <div>
+                    <div
+                        style="width: 64px; height: 64px; background: rgba(15, 42, 74, 0.05); border-radius: 12px; display:flex; align-items:center; justify-content:center; color: var(--color-brand-primary); margin-bottom: 1.5rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                        </svg>
+                    </div>
+                    <h2>Geospatial Data Intelligence</h2>
+                    <p>We help organizations manage their spatial data infrastructure. From database design to data
+                        cleaning and visualization dashboards, we ensure your data works for you.</p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 1.5rem; padding-left: 1.25rem;">
+                        <li>Spatial Database Design (PostGIS)</li>
+                        <li>Data Digitization & Conversion</li>
+                        <li>Web Map Dashboards</li>
+                        <li>Remote Sensing Analysis</li>
+                    </ul>
+                </div>
+                <div
+                    style="background: #e2e8f0; border-radius: var(--radius-lg); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: var(--color-text-light);">
+                    Data Intelligence Visual Placeholder
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>ZealMaps</h2>
+                    <p>Precision geospatial consulting and surveying solutions for a modern world.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Surveying</a></li>
+                        <li><a href="services.html">GIS Analysis</a></li>
+                        <li><a href="services.html">Data Intelligence</a></li>
+                        <li><a href="services.html">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@zealmaps.com">info@zealmaps.com</a></li>
+                        <li><a href="#">+234 800 ZEALMAPS</a></li>
+                        <li><a href="#">Lagos, Nigeria</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZealMaps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

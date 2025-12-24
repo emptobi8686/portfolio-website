@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About ZealMaps - Our mission, expertise, and geospatial tools.">
+    <title>About | ZealMaps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-inner {
+            padding-top: 140px;
+            padding-bottom: 80px;
+            background-color: var(--color-bg-alt);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="logo-icon">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span class="logo-text">ZealMaps</span>
+            </a>
+            <div class="nav-links-desktop">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="contact.html" class="btn btn-primary">Request Consultation</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+        <div class="mobile-nav-overlay">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="services.html" class="mobile-nav-link">Services</a>
+                <a href="projects.html" class="mobile-nav-link">Projects</a>
+                <a href="about.html" class="mobile-nav-link">About</a>
+                <a href="contact.html" class="btn btn-primary mobile-cta">Request Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-inner">
+        <div class="container">
+            <h1>About ZealMaps</h1>
+            <p>Driven by accuracy. Defined by integrity.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: start; gap: 4rem;">
+                <div>
+                    <h2>Our Mission</h2>
+                    <p style="font-size: 1.1rem; color: var(--color-brand-primary);">To empower decision-makers with
+                        spatial truths.</p>
+                    <p>At ZealMaps, we believe that every coordinate tells a story. Whether it's the precise boundary of
+                        a new development or the complex layers of an environmental ecosystem, accurate data is the
+                        foundation of progress.</p>
+                    <p>We combine traditional surveying rigor with modern data science to bridge the gap between
+                        physical reality and digital planning.</p>
+
+                    <h3 style="margin-top: 2rem;">Why Choose Us?</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="color: var(--color-accent);">✓</span> Data Integrity First
+                        </li>
+                        <li style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="color: var(--color-accent);">✓</span> Modern Tech Stack
+                        </li>
+                        <li style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="color: var(--color-accent);">✓</span> Actionable Insights, Not just Maps
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="background: #f7fafc; padding: 2rem; border-radius: var(--radius-md);">
+                    <h3>Tools & Expertise</h3>
+                    <p>We utilize industry-leading technology to deliver results.</p>
+
+                    <h4 style="font-size: 1rem; margin-top: 1.5rem;">Software</h4>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                        <span class="tag">ArcGIS Pro</span>
+                        <span class="tag">QGIS</span>
+                        <span class="tag">AutoCAD Civil 3D</span>
+                        <span class="tag">PostGIS</span>
+                        <span class="tag">Python (GeoPandas)</span>
+                    </div>
+
+                    <h4 style="font-size: 1rem;">Hardware</h4>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <span class="tag">RTK GNSS Receivers</span>
+                        <span class="tag">Total Stations</span>
+                        <span class="tag">Mapping Drones (UAV)</span>
+                        <span class="tag">LiDAR Sensors</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Team/Profile Section (Optional based on brief "Professional Background") -->
+    <section class="section section-alt">
+        <div class="container" style="text-align: center;">
+            <div class="section-title">
+                <h2>Lead Consultant</h2>
+            </div>
+            <!-- Avatar Placeholder -->
+            <div
+                style="width: 120px; height: 120px; background: #cbd5e0; border-radius: 50%; margin: 0 auto 1.5rem auto; display: flex; align-items: center; justify-content: center;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                </svg>
+            </div>
+            <h3>Principal Surveyor</h3>
+            <p style="max-width: 600px; margin: 0 auto;">With over 10 years of experience in cadastral surveying and GIS
+                implementation, bringing technical leadership to complex projects across Nigeria.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>ZealMaps</h2>
+                    <p>Precision geospatial consulting.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZealMaps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
